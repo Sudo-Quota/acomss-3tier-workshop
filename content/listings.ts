@@ -43,43 +43,34 @@ export interface Listing {
 }
 
 export const listings: Listing[] = [
-  {
-    slug: "it-strategy-consulting",
-    title: "IT Strategy Consulting",
-    category: "CONSULTING",
-    description:
-      "Work with our consultants to map your technology roadmap, assess risk, " +
-      "and plan the systems your business needs over the next 12 months.",
-    inquiry_type: "INQUIRE",
-    image_url: "/images/placeholder-consulting.svg",
-  },
-  {
-    slug: "business-website-build",
-    title: "Business Website Build",
-    category: "WEB_DEV",
-    description:
-      "A fast, modern marketing website with a content system you can update " +
-      "yourself. Request a quote and we will scope it with you.",
-    inquiry_type: "QUOTE",
-    image_url: "/images/placeholder-web-dev.svg",
-  },
-  {
-    slug: "inventory-management-app",
-    title: "Custom Inventory Management App",
-    category: "CUSTOM_SOFTWARE",
-    description:
-      "A tailored inventory and ordering application built around your workflow. " +
-      "Book a live demo to see a working example.",
-    inquiry_type: "DEMO",
-    image_url: "/images/placeholder-custom-software.svg",
-  },
    {
-    slug: "Tenz Coaching,",
-    title: "Banorant Coaching ",
-    category: "CONSULTING",
-    description:
-      "From bronze to radiant.",
+    slug: "e-commerce-store",
+    title: "E-commerce Storefront",
+    category: "WEB_DEV",
+    description: 
+      "Build a fully responsive online store with secure payment processing, " +
+      "inventory management, and a custom checkout experience.",
+    inquiry_type: "QUOTE",
+    image_url: "/images/placeholder-ecommerce.svg",
+  },
+  {
+    slug: "custom-crm-system",
+    title: "Custom CRM System",
+    category: "CUSTOM_SOFTWARE",
+    description: 
+      "Tailor-made customer relationship management software designed specifically " + 
+      "to automate your business's unique workflows and sales pipeline.",
     inquiry_type: "DEMO",
-    image_url: "/images/Banorant.png",
+    image_url: "/images/placeholder-crm.svg",
+  },
+  {
+    slug: "cloud-migration-strategy",
+    title: "Cloud Migration Strategy",
+    category: "CONSULTING",
+    description: 
+      "Expert guidance on moving your legacy infrastructure to secure and scalable " +
+      "cloud platforms with minimal downtime.",
+    inquiry_type: "INQUIRE",
+    image_url: "/images/placeholder-cloud.svg",
   },
 ];

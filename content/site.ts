@@ -40,14 +40,14 @@ export interface SiteContent {
 }
 
 export const site: SiteContent = {
-  name: "Acme Consulting",
-  headline: "Software and consulting that fits your business",
-  tagline: "Web development, custom software, and expert IT consulting.",
+  name: "QUOTA CONSULTING",
+  headline: "Software and consulting that fits your business yes",
+  tagline: "Web development, custom software, and expert IT consulting on good days.",
   intro:
     "We help teams ship the right software. Browse our catalog to see what we " +
     "offer, then send us a demo request, a quote request, or a general inquiry. " +
     "No account needed to get in touch.",
-  catalogCtaLabel: "Browse the catalog",
+  catalogCtaLabel: "Browse the catalog ",
   heroImage: "/images/home-hero.jpg",
   heroImageAlt: "A team working together at a desk with laptops and notes",
 };
